@@ -1,0 +1,20 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: auth-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 5
+leyou:
+  jwt:
+    secret: leyou@Login(Auth}*^31)&fl% # 登录校验的密钥
+    pubKeyPath: D:\\tmp\\rsa\\rsa.pub # 公钥地址
+    priKeyPath: D:\\tmp\\rsa\\rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: leyou-cookie
