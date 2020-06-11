@@ -10,8 +10,8 @@ spring:
     password: leyou
 leyou:
   sms:
-    accessKeyId: LTAI4GCVje15JznBeTsnuuR6 # 你自己的accessKeyId
-    accessKeySecret: HyW8dkc0JseesyXjixJpAqGhHrvtN1 # 你自己的AccessKeySecret
-    signName: 飞龙商城 # 签名名称
-    verifyCodeTemplate: SMS_188625761 # 模板名称
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret:  # 你自己的AccessKeySecret
+    signName: # 签名名称
+    verifyCodeTemplate: # 模板名称
 
